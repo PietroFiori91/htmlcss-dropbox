@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: rgb(180, 208, 231);
+  --color-btn: rgb(0, 97, 255);
+  --color-dark: rgb(0, 0, 0);
+  --default-space: 100px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 2px dashed orange;
+}
