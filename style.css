@@ -232,7 +232,7 @@ a {
 .col {
   margin-top: var(--default-space-small);
   width: 100%;
-  height: 1000px;
+  height: 1000px; /* NON CORRETTO */
   border: 1px solid rgb(205, 205, 205);
 }
 
@@ -283,6 +283,11 @@ section div i {
 
 .h4-sect1 {
   margin-top: 3.5rem;
+}
+
+.container-sect1 h5:nth-child(3) {
+  margin-top: 1rem;
+  color: grey;
 }
 
 .container-sect1 p:nth-child(4) {
@@ -339,7 +344,186 @@ main h3 {
   border: 1px solid black;
   color: rgb(0, 0, 0);
 }
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+/* Più di 500.000 team utilizzano Dropbox Business */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+.sect4 {
+  padding-bottom: var(--default-space);
+}
+.sect4 h3 {
+  font-size: 2.5rem;
+  max-width: 75%;
+  padding-bottom: var(--default-space);
+}
+
+.sect4 a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+/* Designit */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+.sect5 {
+  margin-top: var(--default-space);
+  height: 600px;
+  background-color: transparent;
+  display: flex;
+}
+
+.cube {
+  width: 33.3vw;
+  height: 100%;
+  border: 1px dashed black;
+}
+
+.cube2 {
+  position: relative;
+  padding: var(--default-space-small) var(--default-space-small);
+  background-color: rgb(243, 243, 243);
+  overflow: auto;
+}
+
+.cube2 p {
+  position: absolute;
+  top: 6.8rem;
+  left: 2.8rem;
+}
+
+.cube2 .lorem {
+  margin-top: 8rem;
+  padding-right: 2rem;
+}
+.cube2 h2 {
+  font-size: 4rem;
+}
+
+.cube2 hr {
+  max-width: 20%;
+}
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+/* Porta Dropbox Business nella tua azienda */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+.sect6 .container-s {
+  margin: auto;
+}
+
+.sect6 div {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--default-space) 0;
+}
+.sect6 h3 {
+  font-size: 2.5rem;
+  color: rgb(136, 11, 59);
+  max-width: 60%;
+}
+
+.sect6 button {
+  display: flex;
+  background-color: white;
+  /* padding: 1rem 1rem; */
+  max-width: 40%;
+  max-height: 2rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+/* Domande frequenti */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+.section-last h3 {
+  font-size: 2.5rem;
+}
+
+.section-last hr {
+  margin: var(--default-space-small) 0;
+}
+
+.section-last p {
+  position: relative;
+}
+
+.section-last p i {
+  position: absolute;
+  right: 5%;
+}
+
+/* details {
+  position: absolute;
+  display: inline-block;
+}
+
+.section-last i {
+  position: relative;
+} */
+
+.section-last {
+  margin-bottom: var(--default-space);
+}
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
 /* FOOTER */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
 
 .last-container {
   display: flex;
@@ -360,9 +544,20 @@ footer h4 {
   font-size: 1.6rem;
   padding-bottom: 2rem;
 }
+
 footer ul {
   display: flex;
   flex-direction: column;
   line-height: 2.8rem;
   list-style: none;
+}
+
+.last-hr {
+  margin-top: var(--default-space);
+  margin-bottom: var(--default-space-small);
+  max-width: 60%;
+}
+
+footer section div span {
+  color: grey;
 }
