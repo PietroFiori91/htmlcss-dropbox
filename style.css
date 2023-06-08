@@ -517,10 +517,49 @@ main h3 {
 }
 
 .minicube {
-  border: 1.5rem solid black;
+  border: 1.5rem solid transparent;
   width: 50%;
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.minicube:hover {
+  border: 1.5rem solid rgba(255, 255, 255, 0.439);
+}
+
+.sect5 img {
+  object-fit: contain;
+  width: 50%;
+  filter: invert(1);
+}
+
+.cl1 {
+  background-color: rgb(216, 245, 173);
+}
+.cl2 {
+  background-color: rgb(135, 52, 78);
+}
+.cl3 {
+  background-color: rgb(76, 154, 206);
+}
+.cl4 {
+  background-color: rgb(228, 67, 67);
+}
+.cr1 {
+  background-color: rgb(189, 31, 31);
+}
+.cr2 {
+  background-color: rgb(173, 232, 245);
+}
+.cr3 {
+  background-color: rgb(40, 36, 156);
+}
+.cr4 {
+  background-color: rgb(230, 236, 45);
+}
+
 /* -------------------
 -------------------
 -------------------
