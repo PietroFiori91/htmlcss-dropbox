@@ -29,17 +29,18 @@
     <!-- CHECK-MARK-BLUE <i class="fa-solid fa-check" style="color: #005eff;"></i> -->
     <!-- SMALL ARROW DOWN <i class="fa-solid fa-angle-down"></i> -->
     <!-- WORLD <i class="fa-solid fa-earth-americas"></i> -->
+    <!-- DROPBOX LOGO <i class="fa-brands fa-dropbox"></i> -->
 
     <title>Dropbox</title>
 
     <!-- COMMENTI:
-1- INPUT SONO ENTRAMBI CLICCABILI
-2- LE ICONE NELLE COLONNE VERTICALI HANNO PARAGRAFO CHE VA "SOTTO"
-3- ALTEZZA COLONNE SEGNATA IN PX --- > SBAGLIATO -- > risolto con display table
+1- INPUT SONO ENTRAMBI CLICCABILI -- > devo dare stesso "name" ai due input
+2- LE ICONE NELLE COLONNE VERTICALI HANNO PARAGRAFO CHE VA "SOTTO" -- > devo dare span al p e display flex
+3- ALTEZZA COLONNE SEGNATA IN PX = SBAGLIATO -- > risolto con display table
 4- IMMAGINE SECTION2 NON PRENDE GRANDEZZA DESIDERATA
 5-- MANCANO 2 COLONNE E UNA ROW DI CONTENUTO
 6-- MANCANO QUADRATI LOGHI SEZIONE OVERFLOW
-7- TROPPE CLASSI--- >POTREI CREARE CLASSI PIU' INTELLIGENTI -->
+7- TROPPE CLASSI = POTREI CREARE CLASSI PIU' INTELLIGENTI -->
 
 </head>
 
@@ -163,9 +164,9 @@
             <h2>Trova il piano business che fa per te</h2>
 
             <div class="click-container">
-                <input type="radio">
+                <input name="fatturazione" type="radio">
                 <span>Fatturazione mensile</span>
-                <input type="radio">
+                <input name="fatturazione" type="radio">
                 <span>Fatturazione annuale</span>
             </div>
 
