@@ -37,8 +37,8 @@
 1- INPUT SONO ENTRAMBI CLICCABILI -- > devo dare stesso "name" ai due input
 2- LE ICONE NELLE COLONNE VERTICALI HANNO PARAGRAFO CHE VA "SOTTO" -- > devo dare span al p e display flex
 3- ALTEZZA COLONNE SEGNATA IN PX = SBAGLIATO -- > risolto con display table
-4- IMMAGINE SECTION2 NON PRENDE GRANDEZZA DESIDERATA
-5-- MANCANO 2 COLONNE E UNA ROW DI CONTENUTO
+4- IMMAGINE SECTION2 NON PRENDE GRANDEZZA DESIDERATA -- > risolto messo flex padre sbagliato...
+5-- MANCANO 2 COLONNE E UNA ROW DI CONTENUTO -- > completato
 6-- MANCANO QUADRATI LOGHI SEZIONE OVERFLOW
 7- TROPPE CLASSI = POTREI CREARE CLASSI PIU' INTELLIGENTI -->
 
@@ -413,7 +413,12 @@
         -------------------
         ------------------- -->
         <section class="container-l sect5">
-            <div class="cube1 cube"></div>
+            <div class="cube1 cube">
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+            </div>
             <div class="cube2 cube">
                 <h2>Designit</h2>
                 <p>a <strong>wipro</strong> company</p>
@@ -450,7 +455,12 @@
                     nesciunt eum cumque provident nemo quod aperiam assumenda illo laudantium iusto. Similique
                     laudantium perferendis nostrum quasi eum?</p>
             </div>
-            <div class="cube3 cube"></div>
+            <div class="cube3 cube">
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+                <div class="minicube"></div>
+            </div>
         </section>
         <!-- -------------------
         -------------------

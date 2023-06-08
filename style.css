@@ -475,14 +475,13 @@ main h3 {
 ------------------- */
 .sect5 {
   margin-top: var(--default-space);
-  height: 600px;
   background-color: transparent;
   display: flex;
 }
 
 .cube {
-  width: 33.3vw;
-  height: 100%;
+  width: calc(100% / 3);
+  aspect-ratio: 1/1;
   border: 1px dashed black;
 }
 
@@ -509,6 +508,18 @@ main h3 {
 
 .cube2 hr {
   max-width: 20%;
+}
+
+.cube1,
+.cube3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.minicube {
+  border: 1.5rem solid black;
+  width: 50%;
+  height: 50%;
 }
 /* -------------------
 -------------------
