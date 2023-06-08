@@ -371,7 +371,7 @@ section div i {
 
 .img-sect2 {
   max-width: 100%;
-  object-fit: contain;
+  height: auto;
 }
 
 .p-holder-sect2 {
@@ -397,6 +397,37 @@ main h3 {
   background-color: white;
   border: 1px solid black;
   color: rgb(0, 0, 0);
+}
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+/* Esegui più operazioni con Dropbox Business */
+/* -------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- */
+.box-business {
+  width: calc((100% / 3) - 2rem);
+  height: auto;
+}
+
+.sect3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.sect3 div img {
+  width: 100%;
+  height: auto;
 }
 /* -------------------
 -------------------
